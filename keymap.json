@@ -10,27 +10,26 @@
     "context": "Workspace",
     "bindings": {
       "ctrl-t": "file_finder::Toggle",
-      "ctrl-p": "command_palette::Toggle",
-      "alt-f11": "workspace::ToggleCenteredLayout"
-    }
+      "alt-f11": "workspace::ToggleCenteredLayout",
+    },
   },
   {
     "context": "Editor",
-    "bindings": {}
+    "bindings": {},
   },
 
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
       "space o": "project_panel::ToggleFocus",
-      "space e": "project_panel::ToggleFocus"
+      "space e": "project_panel::ToggleFocus",
       // "j k": ["workspace::SendKeystrokes", "escape"]
-    }
+    },
   },
   {
     "context": "ProjectPanel && !not_editing",
     "bindings": {
-      "space o": "workspace::ActivatePreviousPane"
-    }
-  }
+      "space o": "workspace::ActivatePreviousPane",
+    },
+  },
 ]
