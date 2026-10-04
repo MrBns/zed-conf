@@ -35,20 +35,16 @@
     "auto_fold_dirs": false,
   },
   "agent_ui_font_size": 14.0,
-  "agent_buffer_font_size": 12.0,
+  "agent_buffer_font_size": 14.0,
   "agent_ui_font_family": "JetBrains Mono",
   "debugger": {
     "dock": "left",
   },
   "agent": {
-    "expand_terminal_card": false,
-    "threads_sidebar": {
-      "auto_open": false,
-      "position": "right"
-    },
     "sandbox_permissions": {
       "allow_all_hosts": true
     },
+    "sidebar_side": "right",
     "dock": "right",
     "inline_assistant_model": {
       "provider": "vercel_ai_gateway",
